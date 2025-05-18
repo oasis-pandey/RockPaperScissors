@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EAEBD0;
+}
+
+.Title {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 70px;
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+#rockImg,
+#paperImg,
+#scissorsImg {
+    height: 200px;
+    background-color: transparent;
+    mix-blend-mode: darken;
+    border: solid black 2px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.rpcTitle {
+    text-align: center;
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.results .pickOne{
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+    padding: 20px;
+    border: solid black 2px;
+    border-radius: 60px;
+
+}
+
+.imagesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.results {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.results div {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.YourPick,
+.ComputersPick {
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
