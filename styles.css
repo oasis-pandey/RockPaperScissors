@@ -11,8 +11,8 @@
 
 .Title {
     text-align: center;
-    padding: 20px;
-    margin-bottom: 70px;
+    padding: 2rem;
+    margin-bottom: 4.7rem;
     font-family: "Ancizar Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: bolder;
@@ -23,12 +23,13 @@
 #rockImg,
 #paperImg,
 #scissorsImg {
-    height: 200px;
+    height: 13.5rem;
     background-color: transparent;
     mix-blend-mode: darken;
     border: solid black 2px;
-    padding: 20px;
+    padding: 1.5rem;
     border-radius: 50%;
+    max-width: 90%;
 }
 
 .rpcTitle {
@@ -46,7 +47,7 @@
     font-weight: bold;
     font-style: normal;
     font-size: xx-large;
-    padding: 20px;
+    padding: 1.5rem;
     border: solid black 2px;
     border-radius: 60px;
 
@@ -56,18 +57,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 2rem;
 }
 
 
 
 .results {
-    margin: 50px;
+    margin: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 4rem;
 }
 
 .results div {
@@ -81,4 +82,73 @@
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;
+}
+
+@media (max-width: 748px){
+
+    .imagesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+    #rockImg,
+    #paperImg,
+    #scissorsImg {
+    height: 8rem;
+    mix-blend-mode: darken;
+    border: solid black 2px;
+    border-radius: 50%;
+    max-width: 80%;
+}
+
+.YourPick,
+.ComputersPick {
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+}
+
+@media (max-width: 450px){
+
+        .imagesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+    #rockImg,
+    #paperImg,
+    #scissorsImg {
+    height: 6rem;
+    mix-blend-mode: darken;
+    border: solid black 2px;
+    border-radius: 50%;
+    max-width: 80%;
+}
+
+.YourPick,
+.ComputersPick {
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.results .pickOne{
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+    height: rem;
+    margin-top: 0rem;
+    border: solid black 2px;
+    border-radius: 60px;
+
+}
 }
